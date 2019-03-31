@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <head>
+        <title>Airport API</title>
+        <link rel="icon" href="{{ url_for('static', filename='img/travel.ico') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style_error_pages.css') }}">
+    </head>
+<body>
+    <div id="clouds">
+        <div class="cloud x1"></div>
+        <div class="cloud x1_5"></div>
+        <div class="cloud x2"></div>
+        <div class="cloud x3"></div>
+        <div class="cloud x4"></div>
+        <div class="cloud x5"></div>
+    </div>
+    <div class='c'>
+        <div class='_404'>404</div>
+        <hr>
+        <div class='_1'>THE PAGE</div>
+        <div class='_2'>WAS NOT FOUND</div>
+        <a class='btn' href="{{ url_for('hello') }}">BACK TO MARS</a>
+    </div>
+</body>
+</html>
