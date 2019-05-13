@@ -1,7 +1,5 @@
 <!-- PROJECT SHIELDS -->
 ![Version](https://img.shields.io/github/tag/FelippeJC/airports.svg)
-![Status](https://img.shields.io/github/commit-status/FelippeJC/airports/master/c0e38b0a90a5008e4f3544f3adddeb3d1fdb1386.svg)
-![Size](https://img.shields.io/github/repo-size/FelippeJC/airports.svg)
 [![License](https://img.shields.io/github/license/FelippeJC/airports.svg?color=blue&logo=license)](http://badges.mit-license.org)
 
 <!-- PROJECT LOGO -->
@@ -22,7 +20,7 @@
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. For lazyness there's a database in project.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. For lazyness, there's a database in the project.
 
 ### Prerequisites
 
@@ -45,13 +43,17 @@ python -m virtualenv [foldername]
 ##### Activate the virtual environment 
 
 ```
+source [virtualenv foldername]/bin/activate
+```
+On windows:
+```
 [virtualenv foldername]/Scripts/activate
 ```
 
 ##### Install the requirements
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ##### Set the environment variables
